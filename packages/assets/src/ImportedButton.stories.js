@@ -3,7 +3,6 @@ import { ImportedButtonTemplate } from './ImportedButton';
 export default {
   title: 'ImportedButton',
   tags: ['!autodocs'],
-  render: (args) => ImportedButton(args),
 };
 
 export const ImportedButton = ImportedButtonTemplate.bind({});
