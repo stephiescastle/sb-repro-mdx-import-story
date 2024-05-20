@@ -11,7 +11,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@monorepo/assets": "workspace:*"
+    "@monorepo/assets": "workspace:*",
+    "tslib": "^2.6.2"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.4.0",
@@ -24,5 +25,10 @@
     "@storybook/test": "^8.1.1",
     "storybook": "^8.1.1",
     "vite": "^5.2.0"
+  },
+  "overrides": {
+    "react-remove-scroll": {
+      "tslib": "^2.6.2"
+    }
   }
 }

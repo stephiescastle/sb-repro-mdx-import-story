@@ -1,1 +1,5 @@
-export default {}
+export default {
+  resolve: {
+    preserveSymlinks: true,
+  },
+};
